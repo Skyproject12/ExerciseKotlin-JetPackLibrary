@@ -1,11 +1,11 @@
 package com.example.ankolibrary
 
 import android.graphics.Color
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.core.content.ContextCompat
+import androidx.appcompat.app.AppCompatActivity
 import org.jetbrains.anko.*
 import org.jetbrains.anko.design.snackbar
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
                     //backgroundColor = ContextCompat.getColor(context, colorAccent)
                     textColor = Color.WHITE
                     setOnClickListener {
-                        snackbar("Hello, ${name.text}")
+                        //snackbar("Hello, ${name.text}")
                     }
                 }.lparams(width = matchParent) {
                     topMargin = dip(5)
